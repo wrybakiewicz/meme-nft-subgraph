@@ -1,0 +1,4 @@
+type MemeEntity @entity {
+  id: ID!
+  link: String!
+}

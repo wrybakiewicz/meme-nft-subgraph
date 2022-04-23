@@ -1,0 +1,14 @@
+{
+  "name": "subgraph",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "createGraph": "graph create --node https://mumbai-graph.matic.today wrybakiewicz/nftmeme",
+    "deploy": "graph deploy --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/ wrybakiewicz/nftmeme"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.29.0",
+    "@graphprotocol/graph-ts": "0.26.0"
+  }
+}
